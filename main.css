@@ -1,0 +1,37 @@
+.calculator {
+    width: 500px;
+}
+.calculator > div {
+    height: 50px;
+}
+.display {
+    background-color: #222;
+    padding-right: 10px;
+}
+.display-value {
+    width: 500px;
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+}
+.calculator .btn {
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    margin: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #222222;
+    border-radius: 10px;
+}
+.divided-4 > button {
+    flex: 2.5;
+}
+.divided-2 > button {
+    flex: 5;
+}
